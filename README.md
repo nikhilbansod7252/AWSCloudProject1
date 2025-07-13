@@ -1,5 +1,6 @@
 # AWSCloudProject1
-Step1 - AWS Console login
+Step1 - AWS Console login  
+
 Step2 - Create Inbound Rule (HTTP) in Security Group
 Step3 - Create Target Groups with empty targets (ie:EC2)
 Step4 - Cteare ALB (Application Load Banlancer) -> Select created Target Group
