@@ -23,8 +23,10 @@ systemctl enable httpd
 chkconfig httpd on  
 
 mkdir /var/www/html  
--------------------------
+
 echo 'Hey! This is my First ASG' > /var/www/html/index.html
+
+-------------------------
 
 Step6 - Create ASG (Auto Scaling Group) -> Select Launch Template -> Create SNS for Notification   
 
