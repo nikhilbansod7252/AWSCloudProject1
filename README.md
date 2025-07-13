@@ -9,8 +9,9 @@ Step4 - Cteare ALB (Application Load Banlancer) -> Select created Target Group
 
 Step5 - Create launch template with user-data
 
+-------------------------
 user-data  
-
+-------------------------
 #!/bin/bash  
 
 yum install httpd -y  
@@ -22,7 +23,7 @@ systemctl enable httpd
 chkconfig httpd on  
 
 mkdir /var/www/html  
-
+-------------------------
 echo 'Hey! This is my First ASG' > /var/www/html/index.html
 
 Step6 - Create ASG (Auto Scaling Group) -> Select Launch Template -> Create SNS for Notification   
