@@ -39,3 +39,6 @@ Step9 - You have to change data in user-data
         go to ASG -> edit it with version 2 -> and select instant refresh -> Note: while creating ASG slect instance maintainence ploicy as launch before termination
 	
 Step10 - now access DNS Name in ALB hit on browser you will get updated web page
+
+<img width="680" height="167" alt="Capture" src="https://github.com/user-attachments/assets/58cff5bd-f278-4051-aa96-f1ed3caaf871" />
+
